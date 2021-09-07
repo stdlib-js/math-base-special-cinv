@@ -138,6 +138,22 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/ops/cdiv`][@stdlib/math/base/ops/cdiv]: divide two complex numbers.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -200,6 +216,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@priest:2004a]: https://doi.org/10.1145/1039813.1039814
 
 [@baudin:2012a]: https://arxiv.org/abs/1210.4539
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv
+
+<!-- </related-links> -->
 
 </section>
 
