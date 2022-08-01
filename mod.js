@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./mod.d.ts" />
-function r(r){return Math.abs(r)}var n=Number.POSITIVE_INFINITY;function t(r){return 0===r&&1/r===n}function e(r){return r!=r}var u=Number.NEGATIVE_INFINITY;var a=2/4930380657631324e-47;function f(f,I,N){var i,o,c,v;return i=function(r,a){var f,I,N,i;if(2===(f=arguments.length))return e(r)||e(a)?NaN:r===n||a===n?n:r===a&&0===r?t(r)?r:a:r>a?r:a;for(I=u,i=0;i<f;i++){if(e(N=arguments[i])||N===n)return N;(N>I||N===I&&0===N&&t(N))&&(I=N)}return I}(r(I),r(N)),o=1,i>=8988465674311579e292?(I*=.5,N*=.5,o*=.5):i<=2004168360008973e-307&&(I*=a,N*=a,o*=a),r(N)<=r(I)?(v=1/(I+N*(c=N/I)),f[0]=v,f[1]=-c*v):(v=1/(N+I*(c=I/N)),f[0]=c*v,f[1]=-v),f[0]*=o,f[1]*=o,f}function I(r,n,t){return 2===arguments.length?f([0,0],r,n):f(r,n,t)}export{I as default};
-//# sourceMappingURL=mod.js.map
