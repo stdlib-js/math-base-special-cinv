@@ -50,6 +50,11 @@ The inverse (or reciprocal) of a non-zero complex number `z = a + bi` is defined
 To use in Observable,
 
 ```javascript
+cinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-cinv/tags). For example,
+
+```javascript
 cinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@v0.0.6-umd/browser.js' )
 ```
 
@@ -62,7 +67,7 @@ var cinv = require( 'path/to/vendor/umd/math-base-special-cinv/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@v0.0.6-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -110,7 +115,7 @@ var im = imag( v );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@v0.0.6-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
