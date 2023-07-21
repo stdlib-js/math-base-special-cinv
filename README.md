@@ -48,7 +48,7 @@ The inverse (or reciprocal) of a non-zero complex number `z = a + bi` is defined
 ## Usage
 
 ```javascript
-import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@deno/mod.js';
+import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@v0.0.6-deno/mod.js';
 ```
 
 #### cinv( z )
@@ -83,7 +83,7 @@ var im = imag( v );
 ```javascript
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
-import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@deno/mod.js';
+import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@v0.0.6-deno/mod.js';
 
 var z1;
 var z2;
