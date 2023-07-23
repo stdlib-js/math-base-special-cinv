@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,18 +16,22 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Complex128 } from '@stdlib/types/object';
 
 /**
-* Compute the inverse of a double-precision complex floating-point number.
+* Computes the inverse of a double-precision complex floating-point number.
 *
-* @module @stdlib/math-base-special-cinv
+* @param z - input value
+* @returns result
 *
 * @example
-* var Complex128 = require( '@stdlib/complex-float64' );
-* var real = require( '@stdlib/complex-real' );
-* var imag = require( '@stdlib/complex-imag' );
-* var cinv = require( '@stdlib/math-base-special-cinv' );
+* var Complex128 = require( `@stdlib/complex/float64` );
+* var real = require( `@stdlib/complex/real` );
+* var imag = require( `@stdlib/complex/imag` );
 *
 * var v = cinv( new Complex128( 2.0, 4.0 ) );
 * // returns <Complex128>
@@ -38,12 +42,9 @@
 * var im = imag( v );
 * // returns -0.2
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function cinv( z: Complex128 ): Complex128;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = cinv;
