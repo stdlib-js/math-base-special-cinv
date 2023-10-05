@@ -36,15 +36,15 @@ var cinv = require( './../../dist' );
 
 // FIXTURES //
 
-var data = require( './../..xtures/julia/data.json' );
-var largeNegativeImaginaryComponents = require( './../..xtures/julia/large_negative_imaginary_components.json' );
-var largeNegativeRealComponents = require( './../..xtures/julia/large_negative_real_components.json' );
-var largePositiveImaginaryComponents = require( './../..xtures/julia/large_positive_imaginary_components.json' );
-var largePositiveRealComponents = require( './../..xtures/julia/large_positive_real_components.json' );
-var tinyNegativeImaginaryComponents = require( './../..xtures/julia/tiny_negative_imaginary_components.json' );
-var tinyNegativeRealComponents = require( './../..xtures/julia/tiny_negative_real_components.json' );
-var tinyPositiveImaginaryComponents = require( './../..xtures/julia/tiny_positive_imaginary_components.json' );
-var tinyPositiveRealComponents = require( './../..xtures/julia/tiny_positive_real_components.json' );
+var data = require( './../fixtures/julia/data.json' );
+var largeNegativeImaginaryComponents = require( './../fixtures/julia/large_negative_imaginary_components.json' );
+var largeNegativeRealComponents = require( './../fixtures/julia/large_negative_real_components.json' );
+var largePositiveImaginaryComponents = require( './../fixtures/julia/large_positive_imaginary_components.json' );
+var largePositiveRealComponents = require( './../fixtures/julia/large_positive_real_components.json' );
+var tinyNegativeImaginaryComponents = require( './../fixtures/julia/tiny_negative_imaginary_components.json' );
+var tinyNegativeRealComponents = require( './../fixtures/julia/tiny_negative_real_components.json' );
+var tinyPositiveImaginaryComponents = require( './../fixtures/julia/tiny_positive_imaginary_components.json' );
+var tinyPositiveRealComponents = require( './../fixtures/julia/tiny_positive_real_components.json' );
 
 
 // TESTS //
