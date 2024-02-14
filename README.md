@@ -59,6 +59,11 @@ The inverse (or reciprocal) of a non-zero complex number `z = a + bi` is defined
 ## Usage
 
 ```javascript
+import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-cinv/tags). For example,
+
+```javascript
 import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@v0.2.0-esm/index.mjs';
 ```
 
@@ -99,7 +104,7 @@ var im = imag( v );
 
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
-import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@v0.2.0-esm/index.mjs';
+import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@esm/index.mjs';
 
 var z1;
 var z2;
