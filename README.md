@@ -86,8 +86,8 @@ Computes the inverse of a double-precision complex floating-point number.
 
 ```javascript
 var Complex128 = require( '@stdlib/complex-float64-ctor' );
-var real = require( '@stdlib/complex-real' );
-var imag = require( '@stdlib/complex-imag' );
+var real = require( '@stdlib/complex-float64-real' );
+var imag = require( '@stdlib/complex-float64-imag' );
 
 var v = cinv( new Complex128( 2.0, 4.0 ) );
 // returns <Complex128>
@@ -162,17 +162,17 @@ Computes the inverse of a double-precision complex floating-point number.
 
 ```c
 #include "stdlib/complex/float64/ctor.h"
-#include "stdlib/complex/real.h"
-#include "stdlib/complex/imag.h"
+#include "stdlib/complex/float64/real.h"
+#include "stdlib/complex/float64/imag.h"
 
 stdlib_complex128_t z = stdlib_complex128( 2.0, 4.0 );
 
 stdlib_complex128_t out = stdlib_base_cinv( z );
 
-double re = stdlib_real( out );
+double re = stdlib_complex128_real( out );
 // returns 0.1
 
-double im = stdlib_imag( out );
+double im = stdlib_complex128_imag( out );
 // returns -0.2
 ```
 
@@ -309,8 +309,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-cinv.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-cinv
 
-[test-image]: https://github.com/stdlib-js/math-base-special-cinv/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/math-base-special-cinv/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/math-base-special-cinv/actions/workflows/test.yml/badge.svg?branch=v0.2.2
+[test-url]: https://github.com/stdlib-js/math-base-special-cinv/actions/workflows/test.yml?query=branch:v0.2.2
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-cinv/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-cinv?branch=main
