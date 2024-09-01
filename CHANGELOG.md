@@ -129,13 +129,11 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
--   [`70a1973`](https://github.com/stdlib-js/stdlib/commit/70a1973a12dfd37e1cf2b5e28d70db8ed5b527ad): refactor to remove `out` argument and add C implementation
--   [`70a1973`](https://github.com/stdlib-js/stdlib/commit/70a1973a12dfd37e1cf2b5e28d70db8ed5b527ad): remove support for `out` argument and use complex number objects 
+-   [`70a1973`](https://github.com/stdlib-js/stdlib/commit/70a1973a12dfd37e1cf2b5e28d70db8ed5b527ad): remove support for `out` argument and use complex number objects
 
     -   To migrate, consumers need to use complex number objects.
 
