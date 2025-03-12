@@ -264,7 +264,7 @@ int main() {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math-base/ops/cdiv`][@stdlib/math/base/ops/cdiv]</span><span class="delimiter">: </span><span class="description">divide two complex numbers.</span>
+-   <span class="package-name">[`@stdlib/complex-float64/base/div`][@stdlib/complex/float64/base/div]</span><span class="delimiter">: </span><span class="description">divide two complex numbers.</span>
 
 </section>
 
@@ -352,7 +352,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math-base-ops-cdiv
+[@stdlib/complex/float64/base/div]: https://github.com/stdlib-js/complex-float64-base-div
 
 <!-- </related-links> -->
 
