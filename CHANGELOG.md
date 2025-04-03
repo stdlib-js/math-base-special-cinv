@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2025-04-03)
 
 <section class="reverts">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`8a365fc`](https://github.com/stdlib-js/stdlib/commit/8a365fcdd9eb22d5818e44f7447b77345deb1b1e) - **bench:** refactor random number generation `math/base/special/cexp*` [(#5888)](https://github.com/stdlib-js/stdlib/pull/5888) _(by Saurabh Singh, Athan Reines, stdlib-bot)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`1c8af8c`](https://github.com/stdlib-js/stdlib/commit/1c8af8c18d6ad79690b28a1c01bd5874c7b8e68b) - **refactor:** replace `fmax` with `stdlib_base_max` [(#6367)](https://github.com/stdlib-js/stdlib/pull/6367) _(by Karan Anand)_
 -   [`3bad287`](https://github.com/stdlib-js/stdlib/commit/3bad287c1589abf75463bbb43311c22d4a991c22) - **refactor:** update paths _(by Gururaj Gurram)_
@@ -39,11 +40,13 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gururaj Gurram
 -   Karan Anand
 -   Philipp Burckhardt
+-   Saurabh Singh
 
 </section>
 
