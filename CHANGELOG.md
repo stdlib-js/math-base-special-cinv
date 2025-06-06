@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`57ef247`](https://github.com/stdlib-js/stdlib/commit/57ef247aa2a78d934abb36b6ea9994371369db37) - **docs:** fix incorrect require path for `Complex128Array` _(by Karan Anand)_
 -   [`ba76851`](https://github.com/stdlib-js/stdlib/commit/ba76851dd8983a3cd3974d06fc7af42c16e81a7f) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
 -   [`24c131a`](https://github.com/stdlib-js/stdlib/commit/24c131a596fc7580774e0cd8966f4c512ed785e2) - **docs:** fix missing asterisk _(by Karan Anand)_
 -   [`8a365fc`](https://github.com/stdlib-js/stdlib/commit/8a365fcdd9eb22d5818e44f7447b77345deb1b1e) - **bench:** refactor random number generation `math/base/special/cexp*` [(#5888)](https://github.com/stdlib-js/stdlib/pull/5888) _(by Saurabh Singh, Athan Reines, stdlib-bot)_
