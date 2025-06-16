@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-06)
+## Unreleased (2025-06-16)
 
 <section class="reverts">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`3d16892`](https://github.com/stdlib-js/stdlib/commit/3d168921b5a5a81732a2cd9087a41dbfe25754cb) - **docs:** update related packages sections [(#7369)](https://github.com/stdlib-js/stdlib/pull/7369) _(by stdlib-bot)_
 -   [`57ef247`](https://github.com/stdlib-js/stdlib/commit/57ef247aa2a78d934abb36b6ea9994371369db37) - **docs:** fix incorrect require path for `Complex128Array` _(by Karan Anand)_
 -   [`ba76851`](https://github.com/stdlib-js/stdlib/commit/ba76851dd8983a3cd3974d06fc7af42c16e81a7f) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
 -   [`24c131a`](https://github.com/stdlib-js/stdlib/commit/24c131a596fc7580774e0cd8966f4c512ed785e2) - **docs:** fix missing asterisk _(by Karan Anand)_

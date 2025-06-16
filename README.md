@@ -261,6 +261,7 @@ int main() {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/complex-float64/base/div`][@stdlib/complex/float64/base/div]</span><span class="delimiter">: </span><span class="description">divide two complex numbers.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/cinvf`][@stdlib/math/base/special/cinvf]</span><span class="delimiter">: </span><span class="description">compute the inverse of a single-precision complex floating-point number.</span>
 
 </section>
 
@@ -349,6 +350,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 <!-- <related-links> -->
 
 [@stdlib/complex/float64/base/div]: https://github.com/stdlib-js/complex-float64-base-div
+
+[@stdlib/math/base/special/cinvf]: https://github.com/stdlib-js/math-base-special-cinvf
 
 <!-- </related-links> -->
 
