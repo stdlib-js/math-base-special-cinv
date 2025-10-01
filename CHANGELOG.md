@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-20)
+## Unreleased (2025-10-01)
 
 <section class="reverts">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`da465f5`](https://github.com/stdlib-js/stdlib/commit/da465f50915ba0dab1c480a8459ab16b559b7c0f) - **test:** add tests to achieve full coverage in `cinv` and `cinvf` _(by Philipp Burckhardt)_
 -   [`f63f8df`](https://github.com/stdlib-js/stdlib/commit/f63f8df9abf7a7ddf9de4e895a64e4699d2f378b) - **style:** remove header section comments from C files _(by Philipp Burckhardt)_
 -   [`3d16892`](https://github.com/stdlib-js/stdlib/commit/3d168921b5a5a81732a2cd9087a41dbfe25754cb) - **docs:** update related packages sections [(#7369)](https://github.com/stdlib-js/stdlib/pull/7369) _(by stdlib-bot)_
 -   [`57ef247`](https://github.com/stdlib-js/stdlib/commit/57ef247aa2a78d934abb36b6ea9994371369db37) - **docs:** fix incorrect require path for `Complex128Array` _(by Karan Anand)_
