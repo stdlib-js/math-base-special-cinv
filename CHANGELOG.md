@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-02)
+## Unreleased (2025-12-02)
 
 <section class="reverts">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`de0ed69`](https://github.com/stdlib-js/stdlib/commit/de0ed69e3bac7ce1a081177503b3df442645daf2) - **chore:** add structured package data for `math/base/special/cinv` [(#8703)](https://github.com/stdlib-js/stdlib/pull/8703) _(by Aman Singh)_
 -   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - **revert:** undo commits adding tests for full code coverage _(by Philipp Burckhardt)_
 -   [`da465f5`](https://github.com/stdlib-js/stdlib/commit/da465f50915ba0dab1c480a8459ab16b559b7c0f) - **test:** add tests to achieve full coverage in `cinv` and `cinvf` _(by Philipp Burckhardt)_
 -   [`f63f8df`](https://github.com/stdlib-js/stdlib/commit/f63f8df9abf7a7ddf9de4e895a64e4699d2f378b) - **style:** remove header section comments from C files _(by Philipp Burckhardt)_
@@ -48,8 +49,9 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Aman Singh
 -   Athan Reines
 -   Gururaj Gurram
 -   Karan Anand
