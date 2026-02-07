@@ -59,7 +59,7 @@ The inverse (or reciprocal) of a non-zero complex number `z = a + bi` is defined
 ## Usage
 
 ```javascript
-import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@deno/mod.js';
+import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@v0.2.3-deno/mod.js';
 ```
 
 #### cinv( z )
@@ -87,7 +87,7 @@ var v = cinv( new Complex128( 2.0, 4.0 ) );
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@deno/mod.js';
+import cinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cinv@v0.2.3-deno/mod.js';
 
 // Create an array of random numbers:
 var arr = new Complex128Array( uniform( 200, -100.0, 100.0 ) );
