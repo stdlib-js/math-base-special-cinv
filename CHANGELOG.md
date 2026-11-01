@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-31)
+## Unreleased (2026-11-01)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`98e34a7`](https://github.com/stdlib-js/stdlib/commit/98e34a782b2318a2941c26ac1838f7213e59844a) - **docs:** update Markdown equation elements [(#16411)](https://github.com/stdlib-js/stdlib/pull/16411) _(by stdlib-bot)_
 -   [`2a22c73`](https://github.com/stdlib-js/stdlib/commit/2a22c737b45001e32f925ce360447a848daed234) - **feat:** add `assign` and `strided` methods to `math/base/special/cinv` [(#16043)](https://github.com/stdlib-js/stdlib/pull/16043) _(by Karan Anand)_
 -   [`d4d1984`](https://github.com/stdlib-js/stdlib/commit/d4d1984c205078a56e181cac60e64d5ef9228e61) - **test:** migrate `math/base/special/cinv` to ULP-based assertions [(#14042)](https://github.com/stdlib-js/stdlib/pull/14042) _(by Athan Reines)_
 -   [`c73c8b3`](https://github.com/stdlib-js/stdlib/commit/c73c8b39bd76529182ea2b3423c6f0feab434774) - **bench:** refactor to use string interpolation in `math/base/special` [(#11387)](https://github.com/stdlib-js/stdlib/pull/11387) _(by Karan Anand)_
