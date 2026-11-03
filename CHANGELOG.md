@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-02)
+## Unreleased (2026-11-03)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`d0d8e26`](https://github.com/stdlib-js/stdlib/commit/d0d8e26ce806b50d11397f4bf75269b6b4adee66) - **chore:** clean-up [(#16436)](https://github.com/stdlib-js/stdlib/pull/16436) _(by Philipp Burckhardt, Athan Reines)_
 -   [`98e34a7`](https://github.com/stdlib-js/stdlib/commit/98e34a782b2318a2941c26ac1838f7213e59844a) - **docs:** update Markdown equation elements [(#16411)](https://github.com/stdlib-js/stdlib/pull/16411) _(by stdlib-bot)_
 -   [`2a22c73`](https://github.com/stdlib-js/stdlib/commit/2a22c737b45001e32f925ce360447a848daed234) - **feat:** add `assign` and `strided` methods to `math/base/special/cinv` [(#16043)](https://github.com/stdlib-js/stdlib/pull/16043) _(by Karan Anand)_
 -   [`d4d1984`](https://github.com/stdlib-js/stdlib/commit/d4d1984c205078a56e181cac60e64d5ef9228e61) - **test:** migrate `math/base/special/cinv` to ULP-based assertions [(#14042)](https://github.com/stdlib-js/stdlib/pull/14042) _(by Athan Reines)_
@@ -37,10 +38,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
